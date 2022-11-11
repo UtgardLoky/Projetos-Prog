@@ -2,42 +2,44 @@
 
 
 .divcofre {
-    background: #00ff88;
-    border: 2px solid #2f2841;
+    font-size:9ch ; 
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
     text-align: center;
-    display: block;
     border-radius: 10px;
-   -moz-border-radius: 10px;
-   -webkit-border-radius: 10px;
 }
+
+.contsaldo {
+    width: 100vw;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .divsaldo {
     color: aliceblue ;
-    width: 500px;
-    height: 90px;
+    width: 40vw;
+    height: 15vh;
+    margin-left: -100px;
     background: #2f2841;
-    \\border: 5px solid #00ff88;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
     text-align: center;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    box-shadow: 3px 3px #00ff88, -3px -3px  #00ff88
 }
 
+/*
 .divcontrol {
     color: aliceblue ;
-    width: 500px;
-    height: 90px;
+    width: 45vw;
+    height: 15vh;
     background: #2f2841;
-    \\border: 5px solid #00ff88;   
     margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -48,14 +50,13 @@
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    box-shadow: 3px 3px #00ff88, -3px -3px  #00ff88
 }
+*/
 
 .divobjetivo {
     width: 300px;
     height: 90px;
     background: #00000056;
-    border: 5px solid #00ff88;
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
