@@ -23,8 +23,8 @@
     color: aliceblue ;
     width: 40vw;
     height: 15vh;
-    margin-left: -100px;
     background: #2f2841;
+    margin-left: -100px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -34,37 +34,49 @@
     -webkit-border-radius: 10px;
 }
 
-/*
-.divcontrol {
+
+.divextrato {
     color: aliceblue ;
-    width: 45vw;
+    width: 40vw;
     height: 15vh;
     background: #2f2841;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    float: right;
+    margin-left: 10px;
     text-align: center;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
-*/
+
 
 .divobjetivo {
-    width: 300px;
-    height: 90px;
+    width: 30vh;
+    height: 10vh;
     background: #00000056;
-    margin-left: 50px;
+    margin-left: 7vw;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     padding: 5px;
-    text-align: center;
+    /*text-align: center;
+    justify-content: center;
+    align-items: center;*/
     display: inline-flex;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
+
+.objetivo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*
+label {
+justify-content: left ;
+}
+*/
